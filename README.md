@@ -4,7 +4,7 @@ Sotek's Spite is a C-based toolkit for making Dead Rising 3 super moddable. The 
 
 # More details
 
-Written in C and includes a custom rad GUI, the toolkit can patch the game to read loose files present in a Mods folder. Modded files can be smaller, the same size, or larger, meaning dynamic file sizes are supported. You're not restricted to maintaining the original file size.
+The toolkit can patch the game to read loose files present in a Mods folder. Modded files can be smaller, the same size, or larger. That means dynamic file sizes are supported. You're not restricted to maintaining the original file size.
 
 The modding workflow is pretty damn easy. You place dinput8.dll, SotekSpite.exe, and vanilla_companions.txt in the game folder next to deadrising3.exe. If you just want to copy from my SotekSpite.ini then just place the Mods folder bundled with this repository at steamapps\common\deadrising3\Mods. Then you run SotekSpite.exe (if you need to unpack files, build new .big archives, update files, etc), mod whatever the fuck you want, place modded files in the Mods folder (i.e., would be at steamapps\common\deadrising3\Mods), and then play the damn game! This is a brief explanation, for more details you may want to read Sotek's_Guide.txt in the Guide folder for the 2 ways of applying mods to DR3.
 
