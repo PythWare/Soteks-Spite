@@ -20,6 +20,8 @@ The modding workflow is pretty damn easy. You place dinput8.dll, SotekSpite.exe,
 
 If you need to mod files stored within .big archives, you're covered! Sotek's Spite can unpack .big files as well as create new .big archives.
 
+Oh and another thing, if you choose to do a full unpack i suggest setting an exclusion for the directory you unpack the game to because otherwise something like windows defender may slow the unpack speed. Since the full unpack creates 3.48 million files I'd suggest unpacking to a SSD and give Sotek's Spite 10 or so minutes.
+
 Sotek's Spite is inspired by Sotek from warhammer. I'm going to be very clear, this project isnt endorsed by Games Workshop and if they come across this repository and want it renamed then i'll do it. The toolkit merely uses the name "Sotek" to make the toolkit sound rad but also to make people curious about lizardmen, which hopefully then leads them to become warhammer fans like myself. Lizardmen stay winning!
 
 # GUI sample
