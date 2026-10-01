@@ -11,3 +11,11 @@ The modding workflow is pretty damn easy. You click the "Patch game" button, mod
 If you need to mod files stored within .big archives, you're covered! Sotek's Spite can unpack .big files as well as create new .big archives.
 
 Sotek's Spite is inspired by Sotek from warhammer. I'm going to be very clear, this project isnt endorsed by Games Workshop. The toolkit merely uses the name "Sotek" to make the toolkit sound rad but also to make people curious about lizardmen, which hopefully then leads them to become warhammer fans like myself. Lizardmen stay winning!
+
+# GUI sample
+
+This shows an example of the GUI, it's intentionally designed to be unique and unlike other software for modding
+
+<img width="1140" height="739" alt="s1" src="https://github.com/user-attachments/assets/020b569d-d329-42f6-9829-373c34b0e119" />
+
+<img width="1915" height="1035" alt="s2" src="https://github.com/user-attachments/assets/69322c4b-9686-4201-b73e-add8f3eb2571" />
