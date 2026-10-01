@@ -9,3 +9,5 @@ Written in C and includes a custom rad GUI, the toolkit can patch the game to re
 The modding workflow is pretty damn easy. You click the "Patch game" button, mod whatever the fuck you want, place modded files in the Mods folder, and then play the damn game!
 
 If you need to mod files stored within .big archives, you're covered! Sotek's Spite can unpack .big files as well as create new .big archives.
+
+Sotek's Spite is inspired by Sotek from warhammer. I'm going to be very clear, this project isnt endorsed by Games Workshop. The toolkit merely uses the name "Sotek" to make the toolkit sound rad but also to make people curious about lizardmen, which hopefully then leads them to become warhammer fans like myself. Lizardmen stay winning!
