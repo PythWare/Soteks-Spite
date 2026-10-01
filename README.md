@@ -19,3 +19,9 @@ This shows an example of the GUI, it's intentionally designed to be unique and u
 <img width="1140" height="739" alt="s1" src="https://github.com/user-attachments/assets/020b569d-d329-42f6-9829-373c34b0e119" />
 
 <img width="1915" height="1035" alt="s2" src="https://github.com/user-attachments/assets/69322c4b-9686-4201-b73e-add8f3eb2571" />
+
+# Basic mod example I did
+
+<img width="1000" height="270" alt="s3" src="https://github.com/user-attachments/assets/a81ef3eb-7023-4073-b121-fbb00fbbc260" />
+
+<img width="1280" height="720" alt="modded2" src="https://github.com/user-attachments/assets/dc652fce-0736-470b-8366-601d9bfc8a87" />
