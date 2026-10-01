@@ -1,6 +1,6 @@
 # Sotek's Spite
 
-Sotek's Spite is a C-based toolkit for making Dead Rising 3 super moddable. The game can be forced to read loose file mods, meaning no more shitty rebuilding of .big archives.
+Sotek's Spite is a C-based toolkit for making Dead Rising 3 super moddable. The game can be forced to read loose file mods, meaning no need for a mod manager to handle the .big archives.
 
 # More details
 
