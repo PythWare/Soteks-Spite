@@ -6,11 +6,11 @@ Sotek's Spite is a C-based toolkit for making Dead Rising 3 super moddable. The 
 
 Written in C and includes a custom rad GUI, the toolkit can patch the game to read loose files present in a Mods folder. Modded files can be smaller, the same size, or larger, meaning dynamic file sizes are supported. You're not restricted to maintaining the original file size.
 
-The modding workflow is pretty damn easy. You place the DLL I made in the game's directory (i.e., steamapps\common\deadrising3), run SotekSpite.exe (if you need to unpack files, build new .big archives, update files, etc), mod whatever the fuck you want, place modded files in the Mods folder, and then play the damn game!
+The modding workflow is pretty damn easy. You place dinput8.dll, SotekSpite.exe, and vanilla_companions.txt in the game folder next to deadrising3.exe. If you just want to copy from my SotekSpite.ini then just place the Mods folder bundled with this repository at steamapps\common\deadrising3\Mods. Then you run SotekSpite.exe (if you need to unpack files, build new .big archives, update files, etc), mod whatever the fuck you want, place modded files in the Mods folder (i.e., would be at steamapps\common\deadrising3\Mods), and then play the damn game! This is a brief explanation, for more details you may want to read Sotek's_Guide.txt in the Guide folder for the 2 ways of applying mods to DR3.
 
 If you need to mod files stored within .big archives, you're covered! Sotek's Spite can unpack .big files as well as create new .big archives.
 
-Sotek's Spite is inspired by Sotek from warhammer. I'm going to be very clear, this project isnt endorsed by Games Workshop. The toolkit merely uses the name "Sotek" to make the toolkit sound rad but also to make people curious about lizardmen, which hopefully then leads them to become warhammer fans like myself. Lizardmen stay winning!
+Sotek's Spite is inspired by Sotek from warhammer. I'm going to be very clear, this project isnt endorsed by Games Workshop and if they come across this repository and want it renamed then i'll do it. The toolkit merely uses the name "Sotek" to make the toolkit sound rad but also to make people curious about lizardmen, which hopefully then leads them to become warhammer fans like myself. Lizardmen stay winning!
 
 # GUI sample
 
