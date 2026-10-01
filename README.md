@@ -10,7 +10,7 @@ Look I only have a windows 10 PC, so Sotek's Spite assumes you're on windows 10/
 
 Hold right click over the GUI to drag the app and any windows that popup such as the error triangle (what is used if an error occurs)
 
-You can click the Esc button to exit the app or just click the Edit button at the bottom
+You can click the Esc button to exit the app or just click the Exit button at the bottom
 
 # More details
 
