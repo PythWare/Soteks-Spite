@@ -2,6 +2,16 @@
 
 Sotek's Spite is a C-based toolkit for making Dead Rising 3 super moddable. The game can be forced to read loose file mods, meaning no need for a mod manager to handle the .big archives.
 
+# For windows
+
+Look I only have a windows 10 PC, so Sotek's Spite assumes you're on windows 10/11 since I'm using win32 and GDI+. If you're on linux, you might be able to get Sotek's Spite to work by using wine but I can't test Sotek's Spite on an OS I don't own.
+
+# Controls for using Sotek's Spite
+
+Hold right click over the GUI to drag the app and any windows that popup such as the error triangle (what is used if an error occurs)
+
+You can click the Esc button to exit the app or just click the Edit button at the bottom
+
 # More details
 
 The toolkit can patch the game to read loose files present in a Mods folder. Modded files can be smaller, the same size, or larger. That means dynamic file sizes are supported. You're not restricted to maintaining the original file size.
