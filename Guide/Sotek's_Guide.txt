@@ -1,0 +1,48 @@
+Sotek's Spite modding guide for Dead Rising 3
+
+Setup:
+
+Place dinput8.dll, SotekSpite.exe, and vanilla_companions.txt in the game folder next to deadrising3.exe. Make a folder named Mods there too. Everything in Mods is loaded instead of the game's files using the same paths the game uses (Mods\data\etc and Mods\dlc\etc). To play without mods you rename Mods folder or remove dinput8.dll. There are 2 ways you can go about applying mods to DR3 with Sotek's Spite.
+
+Method 1, loose files without rebuilding:
+
+For whole files copy the file to Mods foldr with the same path it has in the game folder (i.e., data\ui\dr3main\dr3main_en.cvs would be Mods\data\ui\dr3main\dr3main_en.cvs). Works for loose game files like .big/.tex/.hrt archives and .bik movies.
+
+Now for files inside an archive:
+
+1. Unpack the archive with Sotek's Spite to see the filenames.
+
+2. In Mods folder make a folder at the archive's path with the dot in its name swapped for an underscore (i.e., data\system\fonts_en.big means Mods\data\system\fonts_en_big\). .tex becomes _tex and .hrt becomes _hrt.
+
+3. Put only the files you changed/added in that folder. Same name means it replaces that file. A new name means it gets added to the archive.
+
+4. Archives inside archives work the same way, one folder per level (i.e., Mods\data\launchstreamedassets_big\2x4_big\2x4_big\MatArray). The folder only counts if the game has the original archive at that path. When the game starts the folders are merged into Mods\SotekCache and the game reads the merged copies. It's only redone when your files change. Don't you fuckin dare edit SotekCache unless you know what youre doing. Deleting it is safe, it's remade on the next launch. Header copies the game keeps in other archives are updated automatically.
+
+Method 2, rebuiling archives:
+
+1. Unpack button, let's talk about that. You click Unpack, pick a folder holding .big files, and then pick a depth level. 0 is for Top level, 1 is for files at the one nested level, and 2 is for the full unpack but it's very large if you use depth level 2 (3.48 million files unpack, at about 71 GB). The output goes to an Unpacked folder beside data (i.e., Unpacked\data\system\fonts_en.big\). Archives inside archives unpack into <name>.unpacked folders.
+
+2. About Editing. Change, replace, add or delete files in the unpacked folder. Added files become new entries, deleted files are removed. You better leave sotek_manifest.txt alone.
+
+3. Rebuild button, let's go into that. When u lick Rebuild you'll pick the unpacked folder and then pick your damn Mods folder. Every archive under the folder you pick gets rebuilt so pick the archive you changed or a folder holding only the ones you changed. Rebuilt archives go to Mods foldr while matching their game paths and the header copies that other archives keep of them are synced into Mods as well.
+
+4. Batch Update, i'll explain it. If you add .big files to Mods folder some other way whether it's someone else's mod or another tool, click Batch Update and pick Mods. It refreshes the header copies. Skipping it can crash the game while loading.
+
+Mixing both:
+
+A loose folder like say fonts_en_big is merged over a rebuilt archive in Mods (like the .big file fonts_en.big) when both exist, otherwise over the game's original.
+
+Troubleshooting:
+
+Mods\sotek_spite.log shows what got redirected and merged on each run of the game. Add Mods\SotekSpite.ini with these two lines to log every file the game opens:
+
+[Log]
+AllPaths=1
+
+If Sotek's Spite has errors they're listed in the error triangle, copy all puts them into the clipboard.
+
+extra info:
+
+The game may take a little longer during initial mod loading if you have tons of loose file mods since the folders are being merged into SotekCache if they don't exist there or are being updated. So if it takes an extra 10 or so seconds before the game stops loading, don't fuckin panic. That's normal!
+
+If you want to add new assets to the game without replacing existing ones make sure you ensure the new assets are referenced by whatever needs it. Like suppose you wanted to make the game load new textures, models, etc without replacing the original assets. You'd ensure the new assets are in the correct folder but you'd also want to update files that reference the original assets, that way the game knows to load those new assets. If you just want to mod/replace existing assets then ignore this.
