@@ -37,3 +37,11 @@ This shows an example of the GUI, it's intentionally designed to be unique and u
 <img width="1000" height="270" alt="s3" src="https://github.com/user-attachments/assets/a81ef3eb-7023-4073-b121-fbb00fbbc260" />
 
 <img width="1280" height="720" alt="modded2" src="https://github.com/user-attachments/assets/dc652fce-0736-470b-8366-601d9bfc8a87" />
+
+# Example of viewing the textures (Sotek's Viewer is not part of Sotek's Spite, i'm still working on it)
+
+<img width="956" height="850" alt="s4" src="https://github.com/user-attachments/assets/fd0c5a83-3186-49af-adca-97fc3815d4d0" />
+
+<img width="955" height="848" alt="s5" src="https://github.com/user-attachments/assets/e33c04b2-5138-4fcc-acda-dbbf358745e9" />
+
+<img width="957" height="850" alt="hairyman" src="https://github.com/user-attachments/assets/9d89511c-1529-45aa-b633-a3579d2558ae" />
